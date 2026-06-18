@@ -1,6 +1,7 @@
-process.env.NEXT_PUBLIC_API_URL ||
-"https://causal-funnel-analytics.onrender.com"
-
+// frontend/src/lib/api.js
+const BASE =
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://causal-funnel-analytics.onrender.com";
 export async function fetchSessions() {
   const res = await fetch(`${BASE}/api/events/sessions`);
   if (!res.ok) throw new Error("Failed to fetch sessions");

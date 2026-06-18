@@ -1,3 +1,4 @@
+// frontend/src/app/dashboard/page.js
 "use client";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
