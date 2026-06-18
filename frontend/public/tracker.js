@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const API_URL = "http://localhost:4000/api/events";
+  const API_URL = "https://causal-funnel-analytics.onrender.com/api/events";
   const BATCH_INTERVAL = 2000; // flush every 2 seconds
 
   // ── Session ID ────────────────────────────────────────────────────────────

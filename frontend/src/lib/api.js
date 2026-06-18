@@ -1,4 +1,5 @@
-const BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+process.env.NEXT_PUBLIC_API_URL ||
+"https://causal-funnel-analytics.onrender.com"
 
 export async function fetchSessions() {
   const res = await fetch(`${BASE}/api/events/sessions`);
