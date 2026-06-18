@@ -423,6 +423,3 @@ GitHub: https://github.com/MayurDas24
 
 ---
 
-## 📜 License
-
-This project was built for educational and evaluation purposes.
