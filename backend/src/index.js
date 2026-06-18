@@ -11,13 +11,7 @@ const PORT = process.env.PORT || 4000;
 connectDB();
 
 // Middleware
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-    methods: ["GET", "POST", "OPTIONS"],
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(express.json());
 
 // Health check
